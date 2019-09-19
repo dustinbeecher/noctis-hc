@@ -99,6 +99,7 @@ export default syntax => ({
       // Editor Tabs
       // ---------------------------
       "tab.activeBackground": "#fef8ec",
+      "tab.unfocusedActiveBackground": "#f7f2e3",
       "tab.activeForeground": "#0099ad",
       "tab.border": "#e6d7b2",
       "tab.inactiveBackground": "#ebe4d1",
@@ -194,22 +195,22 @@ export default syntax => ({
       // ---------------------------
       // Integrated Terminal Colors
       // ---------------------------
-      "terminal.ansiBlack": "#000000",
+      "terminal.ansiBlack": "#003b42",
       "terminal.ansiRed": "#e34e1c",
-      "terminal.ansiGreen": "#00c724",
-      "terminal.ansiYellow": "#e9a149",
-      "terminal.ansiBlue": "#339be6",
-      "terminal.ansiMagenta": "#e94981",
-      "terminal.ansiCyan": "#1597a8",
-      "terminal.ansiWhite": "#bbc3c4",
-      "terminal.ansiBrightBlack": "#888477",
+      "terminal.ansiGreen": "#00b368",
+      "terminal.ansiYellow": "#f49725",
+      "terminal.ansiBlue": "#0094f0",
+      "terminal.ansiMagenta": "#ff5792",
+      "terminal.ansiCyan": "#00bdd6",
+      "terminal.ansiWhite": "#8ca6a6",
+      "terminal.ansiBrightBlack": "#004d57",
       "terminal.ansiBrightRed": "#ff4000",
-      "terminal.ansiBrightGreen": "#00e62a",
-      "terminal.ansiBrightYellow": "#ffbf00",
-      "terminal.ansiBrightBlue": "#0095ff",
-      "terminal.ansiBrightMagenta": "#ff337a",
-      "terminal.ansiBrightCyan": "#00c9db",
-      "terminal.ansiBrightWhite": "#cfffff",
+      "terminal.ansiBrightGreen": "#00d17a",
+      "terminal.ansiBrightYellow": "#ff8c00",
+      "terminal.ansiBrightBlue": "#0fa3ff",
+      "terminal.ansiBrightMagenta": "#ff6b9f",
+      "terminal.ansiBrightCyan": "#00cbe6",
+      "terminal.ansiBrightWhite": "#bbc3c4",
       "terminal.background": "#f6ebd5",
       "terminal.foreground": "#005661",
       "terminalCursor.background": "#f6ebd5",
@@ -327,6 +328,7 @@ export default syntax => ({
       "listFilterWidget.background": "#d5eef1",
       "listFilterWidget.outline": "#14b832",
       "listFilterWidget.noMatchesOutline": "#ff4000",
+      "tree.indentGuidesStroke": "#d3cec5",
       // ---------------------------
       // Settings Editor Colors
       // ---------------------------
@@ -379,7 +381,11 @@ export default syntax => ({
       "editor.snippetTabstopHighlightBackground": "#fdefd3",
       "editor.snippetTabstopHighlightBorder": "#fdf3dd",
       "editor.snippetFinalTabstopHighlightBackground": "#fdefd3",
-      "editor.snippetFinalTabstopHighlightBorder": "#fdf3dd"
+      "editor.snippetFinalTabstopHighlightBorder": "#fdf3dd",
+      // ---------------------------
+      // Minimap
+      // ---------------------------
+      "minimap.findMatchHighlight": "#0099adaa"
    },
    tokenColors: syntax
 });

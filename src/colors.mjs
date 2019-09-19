@@ -4,7 +4,7 @@ export default {
       text: "#004d57",
       keyword: "#ff5792",
       variable: "#f49725",
-      annotation: "#ba785e",
+      annotation: "#b3694d",
       constant: "#a88c00",
       tag: "#e64100",
       string: "#00b368",
@@ -20,7 +20,23 @@ export default {
       text: "#004d57",
       keyword: "#ff5792",
       variable: "#f49725",
-      annotation: "#ba785e",
+      annotation: "#b3694d",
+      constant: "#a88c00",
+      tag: "#e64100",
+      string: "#00b368",
+      stringInterpolated: "#009456",
+      number: "#5842ff",
+      function: "#0095a8",
+      support: "#00bdd6",
+      misc: "#0094f0",
+      invalid: "#ff530f"
+   },
+   lilac: {
+      comment: "#9995b7",
+      text: "#0c006b",
+      keyword: "#ff5792",
+      variable: "#f49725",
+      annotation: "#b3694d",
       constant: "#a88c00",
       tag: "#e64100",
       string: "#00b368",
@@ -96,7 +112,7 @@ export default {
       invalid: "#e3541c"
    },
    azureus: {
-      comment: "#507b95",
+      comment: "#5988a6",
       text: "#becfda",
       keyword: "#df769b",
       variable: "#e4b781",
@@ -111,7 +127,22 @@ export default {
       misc: "#49ace9",
       invalid: "#e3541c"
    },
-
+   bordo: {
+      comment: "#8b747c",
+      text: "#cbbec2",
+      keyword: "#df769b",
+      variable: "#e4b781",
+      annotation: "#d67e5c",
+      constant: "#d5971a",
+      tag: "#e66533",
+      string: "#49e9a6",
+      stringInterpolated: "#16b673",
+      number: "#7060eb",
+      function: "#16a3b6",
+      support: "#49d6e9",
+      misc: "#49ace9",
+      invalid: "#e3541c"
+   },
    uva: {
       comment: "#716c93",
       text: "#c5c2d6",

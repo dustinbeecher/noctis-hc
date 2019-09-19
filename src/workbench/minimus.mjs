@@ -101,6 +101,7 @@ export default syntax => ({
       // Editor Tabs
       // ---------------------------
       "tab.activeBackground": "#1b2932",
+      "tab.unfocusedActiveBackground": "#1e2b33",
       "tab.activeForeground": "#5998c0",
       "tab.border": "#101213",
       "tab.inactiveBackground": "#202e37",
@@ -194,22 +195,23 @@ export default syntax => ({
       // ---------------------------
       // Integrated Terminal Colors
       // ---------------------------
-      "terminal.ansiBlack": "#66767f",
-      "terminal.ansiRed": "#c37455",
+      // "terminal.ansiBlack": "#000",
+      "terminal.ansiBlack": "#182a35",
+      "terminal.ansiRed": "#c08872",
       "terminal.ansiGreen": "#72c09f",
-      "terminal.ansiYellow": "#d3b692",
-      "terminal.ansiBlue": "#5998c0",
-      "terminal.ansiMagenta": "#c88da2",
-      "terminal.ansiCyan": "#7bc7d1",
-      "terminal.ansiWhite": "#b8c9cc",
-      "terminal.ansiBrightBlack": "#5e7887",
-      "terminal.ansiBrightRed": "#b96346",
-      "terminal.ansiBrightGreen": "#59c095",
-      "terminal.ansiBrightYellow": "#c09159",
-      "terminal.ansiBrightBlue": "#5998c0",
-      "terminal.ansiBrightMagenta": "#ce7e9a",
-      "terminal.ansiBrightCyan": "#7ec3ce",
-      "terminal.ansiBrightWhite": "#e0f7fb",
+      "terminal.ansiYellow": "#c8a984",
+      "terminal.ansiBlue": "#6196b8",
+      "terminal.ansiMagenta": "#c28097",
+      "terminal.ansiCyan": "#72b7c0",
+      "terminal.ansiWhite": "#c5cdd3",
+      "terminal.ansiBrightBlack": "#425866",
+      "terminal.ansiBrightRed": "#ca8468",
+      "terminal.ansiBrightGreen": "#84c8ab",
+      "terminal.ansiBrightYellow": "#d1aa7b",
+      "terminal.ansiBrightBlue": "#68a4ca",
+      "terminal.ansiBrightMagenta": "#c88da2",
+      "terminal.ansiBrightCyan": "#84c0c8",
+      "terminal.ansiBrightWhite": "#c5d1d3",
       "terminal.background": "#0e1920",
       "terminal.foreground": "#c5cdd3",
       "terminalCursor.background": "#0e1920",
@@ -242,8 +244,8 @@ export default syntax => ({
       // ---------------------------
       // Diff
       // ---------------------------
-      "diffEditor.insertedTextBackground": "#bbe7c117",
-      "diffEditor.removedTextBackground": "#984c3e33",
+      "diffEditor.insertedTextBackground": "#72c09f25",
+      "diffEditor.removedTextBackground": "#c3745530",
       // ---------------------------
       // Debug
       // ---------------------------
@@ -327,6 +329,7 @@ export default syntax => ({
       "listFilterWidget.background": "#152837",
       "listFilterWidget.outline": "#72c09f",
       "listFilterWidget.noMatchesOutline": "#b96346",
+      "tree.indentGuidesStroke": "#5d6e79",
       // ---------------------------
       // Settings Editor Colors
       // ---------------------------
@@ -380,7 +383,11 @@ export default syntax => ({
       "editor.snippetTabstopHighlightBackground": "#0e1920",
       "editor.snippetTabstopHighlightBorder": "#17232b",
       "editor.snippetFinalTabstopHighlightBackground": "#0e1920",
-      "editor.snippetFinalTabstopHighlightBorder": "#17232b"
+      "editor.snippetFinalTabstopHighlightBorder": "#17232b",
+      // ---------------------------
+      // Minimap
+      // ---------------------------
+      "minimap.findMatchHighlight": "#5998c0ee"
    },
    tokenColors: syntax
 });

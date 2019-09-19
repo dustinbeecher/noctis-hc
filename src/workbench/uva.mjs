@@ -101,6 +101,7 @@ export default syntax => ({
       // Editor Tabs
       // ---------------------------
       "tab.activeBackground": "#292640",
+      "tab.unfocusedActiveBackground": "#2d2b3b",
       "tab.activeForeground": "#998ef1",
       "tab.border": "#171523",
       "tab.inactiveBackground": "#2f2c49",
@@ -193,22 +194,22 @@ export default syntax => ({
       // ---------------------------
       // Integrated Terminal Colors
       // ---------------------------
-      "terminal.ansiBlack": "#66767f",
+      "terminal.ansiBlack": "#302f3d",
       "terminal.ansiRed": "#e66533",
       "terminal.ansiGreen": "#49e9a6",
       "terminal.ansiYellow": "#e4b781",
       "terminal.ansiBlue": "#49ace9",
       "terminal.ansiMagenta": "#df769b",
-      "terminal.ansiCyan": "#66D9E8",
-      "terminal.ansiWhite": "#c5dee2",
-      "terminal.ansiBrightBlack": "#507b95",
-      "terminal.ansiBrightRed": "#e34e1c",
-      "terminal.ansiBrightGreen": "#00ff95",
+      "terminal.ansiCyan": "#49d6e9",
+      "terminal.ansiWhite": "#b6b3cc",
+      "terminal.ansiBrightBlack": "#504e65",
+      "terminal.ansiBrightRed": "#e97749",
+      "terminal.ansiBrightGreen": "#60ebb1",
       "terminal.ansiBrightYellow": "#e69533",
-      "terminal.ansiBrightBlue": "#009dff",
-      "terminal.ansiBrightMagenta": "#ff4d8b",
-      "terminal.ansiBrightCyan": "#33e4ff",
-      "terminal.ansiBrightWhite": "#dbfbff",
+      "terminal.ansiBrightBlue": "#60b6eb",
+      "terminal.ansiBrightMagenta": "#e798b3",
+      "terminal.ansiBrightCyan": "#60dbeb",
+      "terminal.ansiBrightWhite": "#c5c2d6",
       "terminal.background": "#1f1d30",
       "terminal.foreground": "#c5c2d6",
       "terminalCursor.background": "#1f1d30",
@@ -241,8 +242,8 @@ export default syntax => ({
       // ---------------------------
       // Diff
       // ---------------------------
-      "diffEditor.insertedTextBackground": "#b2f2bb17",
-      "diffEditor.removedTextBackground": "#bb200533",
+      "diffEditor.insertedTextBackground": "#16b67327",
+      "diffEditor.removedTextBackground": "#e6653341",
       // ---------------------------
       // Debug
       // ---------------------------
@@ -325,6 +326,7 @@ export default syntax => ({
       "listFilterWidget.background": "#202040",
       "listFilterWidget.outline": "#49e9a6",
       "listFilterWidget.noMatchesOutline": "#e34e1c",
+      "tree.indentGuidesStroke": "#5c5973",
       // ---------------------------
       // Settings Editor Colors
       // ---------------------------
@@ -378,7 +380,11 @@ export default syntax => ({
       "editor.snippetTabstopHighlightBackground": "#211f33",
       "editor.snippetTabstopHighlightBorder": "#2b2843",
       "editor.snippetFinalTabstopHighlightBackground": "#211f33",
-      "editor.snippetFinalTabstopHighlightBorder": "#2b2843"
+      "editor.snippetFinalTabstopHighlightBorder": "#2b2843",
+      // ---------------------------
+      // Minimap
+      // ---------------------------
+      "minimap.findMatchHighlight": "#998ef1ee"
    },
    tokenColors: syntax
 });

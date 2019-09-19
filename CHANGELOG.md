@@ -1,5 +1,159 @@
 # Change Log
 
+
+## **10.10.0**
+
+-  **Apex** &rarr; added support (requires [Salesforce Extension Pack](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode) extension)
+-  updated README
+
+## **10.9.0**
+
+- **JSX**, **TSX**, **CSS** &rarr; fixes
+
+## **10.8.0**
+
+-  **HLSL** &rarr; added support
+-  updated README
+
+## **10.7.0**
+
+- added `minimap.findMatchHighlight` &rarr; highlight color for matches from search within files introduced in VS Code 1.37.0
+
+## **10.6.0**
+
+- improvement [#28](https://github.com/liviuschera/noctis/pull/28)
+
+## **10.5.0**
+
+- improvement [#27](https://github.com/liviuschera/noctis/pull/27)
+
+## **10.4.0**
+
+-  **TOML** &rarr; added support (requires [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml) extension)
+-  **HTML** &rarr; fixes
+-  updated README
+
+## **10.3.0**
+
+-  added `tree.indentGuidesStroke` &rarr; tree Widget's stroke color for indent guides introduced in VS Code 1.36.0
+
+## **10.2.1**
+
+- Updated README
+
+## **10.2.0**
+
+-  **Cucumber (Gerkin)** &rarr; added support (requires [Cucumber (Gherkin) Full Support](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocompletel) extension)
+-  updated README
+
+## **10.1.0**
+
+- **CSS** &rarr; various improvements
+
+## **10.0.0**
+
+-  🆕 dark theme variant &rarr; **_Noctis Bordo_**
+-  updated README
+
+## **9.13.0**
+
+-  **PlantUML** &rarr; added support (requires [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) extension)
+-  updated README
+
+## **9.12.0**
+
+- **Crystal**, **C++**, **Dart**, **Vala** &rarr; fixed type annotation highlighting
+- **Go** &rarr; italicized import statements
+- **Objective C** &rarr; fixed floating point higlighting
+- various fixes and improvements
+
+## **9.11.0**
+
+- **Kotlin**, **Julia** &rarr; italicized primitive datatype annotations and `fun` keyword
+- **Lua** &rarr; fixed the highlighting of constants and libraries
+
+## **9.10.0**
+
+- **PHP** &rarr; fixed the highlighting of:
+   - function parameters
+   - the curly brackets in string interpolation
+
+## **9.9.0**
+
+- **C/C++**, **C#**, **Go**, **Java**, **Groovy**, **Kotlin**, **Scala**, **Python**, **Swift** &rarr; primitive datatype annotations are now italicized
+
+## **9.8.0**
+
+- **TypeScript** &rarr; datatype annotations, import and export statements are now italicized [#25](https://github.com/liviuschera/noctis/issues/25)
+- updated screenshots in README
+
+## **9.7.0**
+
+- **C/C++** &rarr; more tweaks
+
+## **9.6.0**
+
+- **C/C++** &rarr; various fixes
+
+## **9.5.0**
+
+- _Noctis Hibernus_ &rarr; improved contrast for `list.inactiveSelectionBackground`
+- _Noctis Lilac_ &rarr; increased luminosity for panel and terminal background
+
+## **9.4.0**
+
+-  **Elm** &rarr; added support (requires [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm) extension)
+-  updated README
+
+## **9.3.0**
+
+- added new color `tab.unfocusedActiveBackground` introduced in VSCode v1.35
+
+## **9.2.0**
+
+-  **F#** &rarr; added support
+-  updated README
+
+## **9.1.0**
+
+- light themes &rarr; improved contrast of annotation color: #ba785e &rarr; #b3694d
+- updated README
+
+## **9.0.0**
+
+-  🆕 light theme variant &rarr; **_Noctis Lilac_**
+-  updated README
+
+## **8.10.1**
+
+- fixed the css selector for the workbench in `.vscodecustom.css` changed in VSCode v1.35.0
+
+## **8.10.0**
+
+- improvements, fixes [#23](https://github.com/liviuschera/noctis/pull/23)
+
+## **8.9.0**
+
+- improvement [#22](https://github.com/liviuschera/noctis/pull/22)
+
+## **8.8.1**
+
+- tweaks [#21](https://github.com/liviuschera/noctis/issues/21)
+
+## **8.8.0**
+
+- reworked terminal colors [#21](https://github.com/liviuschera/noctis/issues/21)
+
+## **8.7.0**
+
+-  **Ocaml & Reason** &rarr; added support (requires [reason-vscode](https://marketplace.visualstudio.com/items?itemName=jaredly.reason-vscode) extension)
+-  updated README
+
+## **8.6.0**
+
+-  **GraphQL** &rarr; added support (requires [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) extension)
+-  updated README
+
 ## **8.5.0**
 
 -  diff editor colors &rarr; eliminated coloring for inserted and removed text border [#20](https://github.com/liviuschera/noctis/issues/20)
@@ -34,7 +188,7 @@
 
 ## **8.0.0**
 
--  🆕 light theme variant &rarr; **_❄Noctis Nix❄_**
+-  🆕 light theme variant &rarr; **_❄Noctis Hibernus❄_**
 -  updated README
 
 **7.28.1**

@@ -10,28 +10,39 @@ Noctis is a collection of light & dark themes with a well balanced blend of warm
 
 The theme is designed to:
 
-- be easy on the eyes thus reducing the eye strain
-- give semantic meaning to theme's colors
+-  be easy on the eyes thus reducing the eye strain
+-  give semantic meaning to theme's colors
 
-Noctis comes in nine versions. Seven are dark and two are light.
+Noctis comes in 11 versions, 8 are dark and 3 are light.
 
-- _Noctis_, _Noctis Sereno_ & _Noctis Obscuro_ background is a very saturated very dark cold bluish cyan
-- _Noctis Azureus'_ background is a very saturated very dark cold azure
-- _Noctis Uva's_ background is a unsaturated dark cold blue. For those with more spartan taste
-- _Noctis Minimus'_ background offers a version of the _Azureus_ palette with **much lower saturation**. (Thank you [Draevin](https://github.com/draevin) for your [contribution](https://github.com/liviuschera/noctis/pull/10))
-- _Noctis Viola's_ background is a saturated very dark cold violet
-- _Noctis Lux'_ background is a very saturated very light warm orange
-- _Noctis Hibernus'_ background is a very unsaturated very light cold bluish cyan
+-  _Noctis_, _Noctis Sereno_ & _Noctis Obscuro_ background is a very saturated very dark cold bluish cyan
+-  _Noctis Azureus'_ background is a very saturated very dark cold azure
+-  _Noctis Bordo's_ background is a very unsaturated very dark warm rose
+-  _Noctis Uva's_ background is a unsaturated dark cold blue. For those with more spartan taste
+-  _Noctis Minimus'_ background offers a version of the _Azureus_ palette with **much lower saturation**. (Thank you [Draevin](https://github.com/draevin) for your [contribution](https://github.com/liviuschera/noctis/pull/10))
+-  _Noctis Viola's_ background is a saturated very dark cold violet
+-  _Noctis Lux'_ background is a very saturated very light warm orange
+-  _Noctis Hibernus'_ background is a very unsaturated very light cold bluish cyan
+-  _Noctis Lilac's_ background is a very unsaturated very light cold blue
 
 <div align="center">
 
-## 🆕❄Noctis Hibernus❄🆕
 
-![Noctis Hibernus Screenshot](images/noctisHibernus.png)
+## 🆕 Noctis Bordo 🆕
+
+![Noctis Bordo Screenshot](https://github.com/liviuschera/noctis/raw/master/images/noctisBordo.png)
 
 ## Noctis Lux
 
 ![Noctis Lux Screenshot](https://github.com/liviuschera/noctis/raw/master/images/noctisLux.png)
+
+## Noctis Lilac
+
+![Noctis Lilac Screenshot](https://github.com/liviuschera/noctis/raw/master/images/noctisLilac.png)
+
+## Noctis Hibernus
+
+![Noctis Hibernus Screenshot](https://github.com/liviuschera/noctis/raw/master/images/noctisHibernus.png)
 
 ## Noctis
 
@@ -51,57 +62,68 @@ Noctis comes in nine versions. Seven are dark and two are light.
 
 ## Noctis Viola
 
-![Noctis Viola Screenshot](images/noctisViola.png)
+![Noctis Viola Screenshot](https://github.com/liviuschera/noctis/raw/master/images/noctisViola.png)
 
 </div>
 
 ## Supported Languages
 
-- C/C++
-- C#
-- Clojure
-- CoffeeScript
-- Crystal (requires [Crystal Language](https://marketplace.visualstudio.com/items?itemName=faustinoaq.crystal-lang) extension)
-- CSS
-  - Sass/SCSS
-- Dart (requires [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) extension)
-- Elixir (requires [ElixirLS: Elixir support and debugger](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls) extension)
-- Erlang (requires [erlang](https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang) extension)
-- Go
-- Groovy
-- Haskell (requires [Haskell Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell) extension)
-- HTML
-  - EJS
-  - Handlebars
-  - Pug/Jade
-- Java
-- JavaScript
-  - JSON
-  - React/JSX
-  - Typescript/TSX
-- Julia (requires [Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia) extension)
-- Kotlin (requires [Kotlin](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin) extension)
-- Lua (requires [Lua Plus](https://marketplace.visualstudio.com/items?itemName=jep-a.lua-plus) extension)
-- Markup
-  - 🆕 LaTeX (requires [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension)
-  - Markdown
-- Objective-C
-- PHP
-  - Laravel Blade
-  - Twig &rarr; (requires [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2) extension)
-- PowerShell
-- Python
-- R
-- Ruby
-- Rust
-- Scala (requires [Scala Syntax](https://marketplace.visualstudio.com/items?itemName=scala-lang.scala) extension)
-- SQL
-- Shell Script
-- Swift
-- Vala (requires [Vala Code](https://marketplace.visualstudio.com/items?itemName=thiagoabreu.vala) extension)
-- Visual Basic
-- _Other_
-  - Apache Conf (requires [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache) extension)
+-  🆕 Apex (requires [Salesforce Extension Pack](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode) extension)
+-  C/C++
+-  C#
+-  Clojure
+-  CoffeeScript
+-  Crystal (requires [Crystal Language](https://marketplace.visualstudio.com/items?itemName=faustinoaq.crystal-lang) extension)
+-  CSS
+   -  Sass/SCSS
+-  Cucumber (Gerkin) (requires [Cucumber (Gherkin) Full Support](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocompletel) extension)
+-  Dart (requires [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code) extension)
+- Elm (requires [elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm) extension)
+-  Elixir (requires [ElixirLS: Elixir support and debugger](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls) extension)
+-  Erlang (requires [erlang](https://marketplace.visualstudio.com/items?itemName=pgourlain.erlang) extension)
+- F#
+-  Go
+-  GraphQL (requires [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql) extension)
+-  Groovy
+-  Haskell (requires [Haskell Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=justusadam.language-haskell) extension)
+-  🆕 HLSL
+-  HTML
+   -  EJS
+   -  Handlebars
+   -  Pug/Jade
+-  Java
+-  JavaScript
+   -  JSON
+   -  React/JSX
+   -  Typescript/TSX
+-  Julia (requires [Julia](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia) extension)
+-  Kotlin (requires [Kotlin](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin) extension)
+-  Lua (requires [Lua Plus](https://marketplace.visualstudio.com/items?itemName=jep-a.lua-plus) extension)
+-  Markup
+   -  AsciiDoc (requires [AsciiDoc](https://marketplace.visualstudio.com/items?itemName=joaompinto.asciidoctor-vscode) extension)
+   -  LaTeX (requires [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension)
+   -  Markdown
+-  Objective-C
+-  Ocaml (requires [reason-vscode](https://marketplace.visualstudio.com/items?itemName=jaredly.reason-vscode) extension)
+-  PHP
+   -  Laravel Blade
+   -  Twig &rarr; (requires [Twig Language 2](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language-2) extension)
+-  PlantUML (requires [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) extension)
+-  PowerShell
+-  Python
+-  R
+-  ReasonML (requires [reason-vscode](https://marketplace.visualstudio.com/items?itemName=jaredly.reason-vscode) extension)
+-  Ruby
+-  Rust
+-  Scala (requires [Scala Syntax](https://marketplace.visualstudio.com/items?itemName=scala-lang.scala) extension)
+-  SQL
+-  Shell Script
+-  Swift
+-  Vala (requires [Vala Code](https://marketplace.visualstudio.com/items?itemName=thiagoabreu.vala) extension)
+-  Visual Basic
+-  _Other_
+   -  Apache Conf (requires [Apache Conf](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache) extension)
+   -  TOML (requires [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml) extension)
 
 I plan on adding support for new languages in the upcoming releases. Please feel free to open an issue if you'd like a new language supported or if you think something is off.
 
@@ -132,9 +154,9 @@ The walkthrough is for Windows. I assume that for Unix and MacOS you would have 
 
 > NOTES:
 >
-> - if VS Code complains about that it is corrupted, simply click “Don't show again”.
-> - every time after VS Code is updated or you change the configuration, please re-enable Custom CSS
-> - make sure that you comment out the optional CSS code if you don't want to change the UI's default font.
+> -  if VS Code complains about that it is corrupted, simply click “Don't show again”.
+> -  every time after VS Code is updated or you change the configuration, please re-enable Custom CSS
+> -  make sure that you comment out the optional CSS code if you don't want to change the UI's default font.
 
 ## Syntax colors
 
@@ -183,14 +205,15 @@ The color names were matched using the excellent online tools [Name that Color](
 | ---------------- | ------------------------------------------------------------------ | --------------------------------------------------------- |
 | Jade             | ![#00b368](https://placehold.it/15/00b368/000000?text=+) `#00b368` | Strings                                                   |
 | Green Haze       | ![#009456](https://placehold.it/15/009456/000000?text=+) `#009456` | Interpolated Strings                                      |
-| Cascade          | ![#8ca6a6](https://placehold.it/15/8ca6a6/000000?text=+) `#8ca6a6` | Comments                                                  |
+| Cascade          | ![#8ca6a6](https://placehold.it/15/8ca6a6/000000?text=+) `#8ca6a6` | Comments for _Lux_ & _Hibernus_ variant                   |
+| Amethyst Smoke   | ![#9995b7](https://placehold.it/15/9995b7/000000?text=+) `#9995b7` | Comments for _Lilac_ variant                              |
 | Bondi Blue       | ![#0095a8](https://placehold.it/15/0095a8/000000?text=+) `#0095a8` | Function Calls                                            |
 | Robin's Egg Blue | ![#00bdd6](https://placehold.it/15/00bdd6/000000?text=+) `#00bdd6` | Method Calls                                              |
 | Azure Radiance   | ![#0094f0](https://placehold.it/15/0094f0/000000?text=+) `#0094f0` | Code that needs to stand out                              |
 | Electric Violet  | ![#5842ff](https://placehold.it/15/5842ff/000000?text=+) `#5842ff` | Numbers & Booleans                                        |
 | PBrink Pink      | ![#ff5792](https://placehold.it/15/ff5792/000000?text=+) `#ff5792` | Keywords & Operators                                      |
 | Trinidad         | ![#e64100](https://placehold.it/15/e64100/000000?text=+) `#e64100` | Function & Variable Declaration, Tags & `this`            |
-| Santa Fe         | ![#ba785e](https://placehold.it/15/ba785e/000000?text=+) `#ba785e` | Object properties, ID selectors in CSS & Type annotations |
+| Santa Fe         | ![#b3694d](https://placehold.it/15/b3694d/000000?text=+) `#b3694d` | Object properties, ID selectors in CSS & Type annotations |
 | Dark Goldenrod   | ![#a88c00](https://placehold.it/15/a88c00/000000?text=+) `#a88c00` | Attributes, Constants                                     |
 | Yellow Sea       | ![#f49725](https://placehold.it/15/f49725/000000?text=+) `#f49725` | Variables & Parameters                                    |
 
@@ -202,9 +225,9 @@ Noctis can be installed by clicking on Ctrl + Shift + X on Windows or ⇧ + ⌘ 
 
 Beginning with v7.21.0 the theme building process has been simplified. I started off with the idea used in [Lucy](https://marketplace.visualstudio.com/items?itemName=juliettepretot.lucy-vscode) theme and came up with this theme generator powered by Node.js. This will allow me or any contributor to easily add/suggest new theme variants or changes to the existing ones. In `./src/` folder you will find:
 
-- `syntax.mjs` &rarr; syntax tokens based on the language grammar installed
-- `colors.mjs` &rarr; the colors used for syntax highlighting
-- `./src/workbench/` &rarr; all eight theme versions containing Workbench/UI colors
+-  `syntax.mjs` &rarr; syntax tokens based on the language grammar installed
+-  `colors.mjs` &rarr; the colors used for syntax highlighting
+-  `./src/workbench/` &rarr; all eight theme versions containing Workbench/UI colors
 
 After you make a change in any of the above files you need to use `npm run build` command. The build output folder is `./themes/`
 
@@ -212,7 +235,7 @@ Happy hacking!
 
 ## Contributors
 
-| [![Matteo Campinoti](https://avatars0.githubusercontent.com/u/5142004?s=85&v=4)](https://github.com/MatteoCampinoti94) | [![Draevin](https://avatars2.githubusercontent.com/u/25379577?s=85&v=4)](https://github.com/draevin) | [Will Hoskings](https://github.com/def0x099) |
+| [![Matteo Campinoti](https://avatars0.githubusercontent.com/u/5142004?s=85&v=4)](https://github.com/MatteoCampinoti94) | [![Draevin](https://avatars2.githubusercontent.com/u/25379577?s=85&v=4)](https://github.com/draevin) | [![Will Hoskings](https://avatars3.githubusercontent.com/u/43454318?s=85&v=4)](https://github.com/def0x099) |
 | :--------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :------------------------------------------: |
 |                                [Matteo Campinoti](https://github.com/MatteoCampinoti94)                                |                                [Draevin](https://github.com/draevin)                                 | [Will Hoskings](https://github.com/def0x099) |
 
