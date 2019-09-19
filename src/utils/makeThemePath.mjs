@@ -4,7 +4,7 @@ const themePath = (themeName, themeType = NORMAL) => {
   let path
   switch (themeType) {
     case NO_ITALIC:
-      path = `./themes/${themeName}-no-italic.json.json`
+      path = `./themes/${themeName}-no-italic.json`
       break
 
     case NO_ITALIC_NO_BOLD:
