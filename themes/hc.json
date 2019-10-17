@@ -203,7 +203,6 @@
             "variable.other",
             "variable.parameter",
             "support",
-            "string constant.other.placeholder",
             "entity.name.module",
             "variable.import.parameter",
             "variable.other.class",
@@ -251,7 +250,8 @@
             "source.elm meta.declaration.module",
             "meta.embedded.block variable punctuation.definition.variable.php",
             "string.quoted.double.class.other",
-            "source.toml keyword"
+            "source.toml keyword",
+            "support.type.nim"
          ],
          "settings": {
             "foreground": "#ffb966"
@@ -310,7 +310,9 @@
             "source.vala storage.type",
             "source.hlsl storage.type.basic",
             "source.hlsl support.type.other",
-            "source.apex storage.type"
+            "source.apex storage.type",
+            "source.nim storage.type",
+            "source.cpp entity.name.type"
          ],
          "settings": {
             "foreground": "#ffc69d"
@@ -344,7 +346,11 @@
             "entity.other.attribute-name.class",
             "meta.attribute.id entity.other.attribute-name",
             "text.html entity.other.attribute-name",
-            "meta.tag.attributes entity.other.attribute-name"
+            "meta.tag.attributes entity.other.attribute-name",
+            "text.xml entity.other.attribute-name",
+            "source.cs entity.other.attribute-name",
+            "constant.character.format.placeholder",
+            "constant.other.placeholder"
          ],
          "settings": {
             "foreground": "#e6ac00"
@@ -401,7 +407,8 @@
             "keyword.declaration.dart",
             "source.wsd keyword.other.class",
             "source.wsd keyword.other.linebegin",
-            "keyword.other.skinparam.keyword"
+            "keyword.other.skinparam.keyword",
+            "keyword.other.nim"
          ],
          "settings": {
             "foreground": "#ff7039"
@@ -504,7 +511,6 @@
             "markup.underline.link.image",
             "markup.underline",
             "meta.symbol.namespace.clojure",
-            "entity.name.type.namespace.cs",
             "entity.mime-type.apacheconf",
             "keyword.operator.function.infix",
             "entity.name.function.infix",
@@ -516,7 +522,10 @@
             "source.reason entity.other.attribute-name constant.language constant.numeric",
             "constant.language.unit.fsharp",
             "source.wsd support.class.preprocessings",
-            "keyword.language.gherkin.feature.scenario"
+            "keyword.language.gherkin.feature.scenario",
+            "source.nim keyword.other.common.function",
+            "entity.name.type.namespace",
+            "entity.name.scope-resolution.function.call"
          ],
          "settings": {
             "foreground": "#99f3ff"
@@ -537,11 +546,8 @@
             "source.clojure punctuation.section.metadata",
             "entity.global.clojure",
             "source.python meta.function-call.python support.type.python",
-            "constant.character.format.placeholder.other.python",
             "entity.other.inherited-class.python",
             "punctuation.definition.interpolation",
-            "constant.other.placeholder.go",
-            "constant.other.placeholder.c",
             "punctuation.section.embedded.begin.ruby",
             "punctuation.section.embedded.end.ruby source.ruby",
             "support.constant.math",
@@ -572,7 +578,8 @@
             "meta.embedded.block.php punctuation.definition.variable.php",
             "support.variable.lua",
             "source.vala storage.type",
-            "support.variable.class.group"
+            "support.variable.class.group",
+            "entity.name.type.class"
          ],
          "settings": {
             "foreground": "#00a0ff"
@@ -656,7 +663,7 @@
             "keyword.control.from",
             "support.type.builtin",
             "keyword.type.cs",
-            "storage.type.built-in.primitive",
+            "storage.type.built-in",
             "storage.type.primitive",
             "source.python support.type.python",
             "storage.type.core.rust",
@@ -674,7 +681,11 @@
             "keyword.language.gherkin.feature.step",
             "source.hlsl storage.type.basic",
             "source.apex keyword.type",
-            "sharing.modifier"
+            "sharing.modifier",
+            "source.nim storage.type.concrete",
+            "meta.preprocessor.pragma.nim",
+            "storage.type.integral",
+            "entity.name.scope-resolution.function.call"
          ],
          "settings": {
             "fontStyle": "italic"
@@ -727,8 +738,8 @@
             "support.function.textbf",
             "source.graphql support.type.builtin",
             "source.ocaml variable.interpolation string",
-            "meta.function.constructor entity.name.function",
-            "meta.function.destructor entity.name.function",
+            "entity.name.function.definition.special.constructor",
+            "entity.name.function.definition.special.member.destructor.",
             "meta.function.parameters variable punctuation.definition.variable.php",
             "source.wsd keyword.other.activity"
          ],
@@ -820,7 +831,10 @@
             "keyword.language.gherkin.feature.scenario",
             "keyword.control.cucumber.table",
             "source.toml entity.other.attribute-name",
-            "source.toml keyword"
+            "source.toml keyword",
+            "keyword.other.nim",
+            "source.nim keyword.other.common.function",
+            "source.nim keyword.other"
          ],
          "settings": {
             "fontStyle": ""

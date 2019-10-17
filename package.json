@@ -2,7 +2,7 @@
   "name": "noctis-high-contrast",
   "displayName": "Noctis High Contrast",
   "description": "A fork of the Noctis theme, with more vivid syntax colors and a slick black UI",
-  "version": "10.10.0",
+  "version": "10.13.0",
   "engines": {
     "vscode": "^1.36.0"
   },
@@ -13,8 +13,8 @@
   "scripts": {
     "build": "node --experimental-modules src/utils/build.mjs",
     "release:major---": "npm run build && git add . && git commit -m 🆕11.0.0🆕 && npm version major & vsce publish && git push",
-    "release:minor": "npm run build && git add . && git commit -m 10.11.0 && npm version minor & vsce publish && git push",
-    "release:patch": "npm run build && git add . && git commit -m 10.10.1 && npm version patch & vsce publish && git push"
+    "release:minor": "npm run build && git add . && git commit -m 10.14.0 && npm version minor & vsce publish && git push",
+    "release:patch": "npm run build && git add . && git commit -m 10.13.1 && npm version patch & vsce publish && git push"
   },
   "categories": [
     "Themes"
