@@ -189,7 +189,9 @@
             "keyword.other.class.fileds",
             "source.toml entity.other.attribute-name",
             "source.css entity.name.tag.custom",
-            "sharing.modifier"
+            "sharing.modifier",
+            "keyword.control.class.ruby",
+            "keyword.control.def.ruby"
          ],
          "settings": {
             "foreground": "#ff669c"
@@ -251,7 +253,8 @@
             "meta.embedded.block variable punctuation.definition.variable.php",
             "string.quoted.double.class.other",
             "source.toml keyword",
-            "support.type.nim"
+            "support.type.nim",
+            "source.tf meta.template.expression"
          ],
          "settings": {
             "foreground": "#ffb966"
@@ -312,7 +315,10 @@
             "source.hlsl support.type.other",
             "source.apex storage.type",
             "source.nim storage.type",
-            "source.cpp entity.name.type"
+            "source.cpp entity.name.type",
+            "support.class.builtin",
+            "source.tf meta.keyword.string",
+            "source.tf meta.keyword.number"
          ],
          "settings": {
             "foreground": "#ffc69d"
@@ -389,7 +395,6 @@
             "keyword.other.julia",
             "source.julia storage.modifier",
             "constant.language.empty-list.haskell",
-            "keyword.declaration.scala",
             "meta.function.powershell storage.type.powershell",
             "keyword.control.fun",
             "punctuation.terminator.function",
@@ -408,7 +413,9 @@
             "source.wsd keyword.other.class",
             "source.wsd keyword.other.linebegin",
             "keyword.other.skinparam.keyword",
-            "keyword.other.nim"
+            "keyword.other.nim",
+            "markup.deleted.diff",
+            "source.tf support.class.variable"
          ],
          "settings": {
             "foreground": "#ff7039"
@@ -421,7 +428,11 @@
             "punctuation.definition.string",
             "source.css support.constant",
             "entity.name.import.go",
-            "markup.raw.texttt"
+            "markup.raw.texttt",
+            "markup.inserted.diff",
+            "source.scala punctuation.definition.character",
+            "constant.character.literal.scala",
+            "source.tf entity.name"
          ],
          "settings": {
             "foreground": "#66ffbf"
@@ -487,7 +498,8 @@
             "entity.name.section.fsharp entity.name.section.fsharp",
             "support.variable.class.function",
             "keyword.control.cucumber.table",
-            "punctuation.decorator"
+            "punctuation.decorator",
+            "source.tf support.class"
          ],
          "settings": {
             "foreground": "#00b4cc"
@@ -579,7 +591,9 @@
             "support.variable.lua",
             "source.vala storage.type",
             "support.variable.class.group",
-            "entity.name.type.class"
+            "entity.name.type.class",
+            "source.tf meta.keyword.list",
+            "source.tf meta.keyword.map"
          ],
          "settings": {
             "foreground": "#00a0ff"
@@ -630,7 +644,7 @@
             "constant.other.symbol.ruby punctuation.definition.constant.ruby",
             "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
             "meta.function.parameters variable.other",
-            "keyword.declaration.scala",
+            "source.scala keyword.declaration",
             "entity.name.type.annotation.kotlin",
             "storage.type.objc",
             "parameter.variable.function",
@@ -645,7 +659,9 @@
             "entity.name.function.definition.special.constructor",
             "entity.name.function.definition.special.member.destructor.",
             "meta.function.parameters variable punctuation.definition.variable.php",
-            "source.wsd keyword.other.activity"
+            "source.wsd keyword.other.activity",
+            "keyword.control.class.ruby",
+            "keyword.control.def.ruby"
          ],
          "settings": {
             "fontStyle": "bold"
@@ -667,7 +683,6 @@
             "meta.class.identifier storage.modifier",
             "keyword.operator.other.powershell",
             "source.lua storage.type.function",
-            "source.scala keyword.declaration",
             "source.css variable.parameter",
             "string.interpolated variable.parameter",
             "source.apacheconf keyword",
