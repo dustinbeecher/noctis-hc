@@ -92,7 +92,10 @@
             "punctuation.definition.comment",
             "punctuation.definition.tag",
             "comment.block.documentation punctuation.definition.bracket",
-            "source.ocaml comment constant.regexp meta.separator"
+            "source.ocaml comment constant.regexp meta.separator",
+            "markup.other.anchor support.constant",
+            "markup.fenced_code",
+            "markup.fenced_code punctuation.definition"
          ],
          "settings": {
             "foreground": "#888"
@@ -130,7 +133,8 @@
             "entity.name.record.field.accessor.elm",
             "storage.modifier.array.bracket",
             "source.css entity.other",
-            "meta.attribute-selector punctuation.definition.entity"
+            "meta.attribute-selector punctuation.definition.entity",
+            "markup.other.anchor string"
          ],
          "settings": {
             "foreground": "#ddd3cc"
@@ -169,7 +173,6 @@
             "keyword.import",
             "punctuation.definition.keyword",
             "punctuation.separator.hash.cs",
-            "variable.parameter.rest.lua",
             "entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css",
             "entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css",
             "source.kotlin storage.type.import",
@@ -210,7 +213,6 @@
             "variable.other.class",
             "meta.toc-list.id.html",
             "source.json meta.structure.dictionary.json support.type.property-name.json",
-            "markup.list",
             "meta.var.clojure",
             "entity.name.variable",
             "source.java meta.class.body.java",
@@ -254,7 +256,9 @@
             "string.quoted.double.class.other",
             "source.toml keyword",
             "support.type.nim",
-            "source.tf meta.template.expression"
+            "source.tf meta.template.expression",
+            "source.scala entity.name.import",
+            "markup.code"
          ],
          "settings": {
             "foreground": "#ffb966"
@@ -318,7 +322,11 @@
             "source.cpp entity.name.type",
             "support.class.builtin",
             "source.tf meta.keyword.string",
-            "source.tf meta.keyword.number"
+            "source.tf meta.keyword.number",
+            "source.scala entity.name.class",
+            "markup.raw.monospace",
+            "markup.mark",
+            "markup.meta.attribute-list"
          ],
          "settings": {
             "foreground": "#ffc69d"
@@ -347,7 +355,6 @@
             "source.graphql constant.character",
             "source.reason constant.language.list",
             "source.cpp variable.other.enummember",
-            "meta.table.lua variable.other",
             "support.variable.class.hideshow",
             "entity.other.attribute-name.class",
             "meta.attribute.id entity.other.attribute-name",
@@ -356,7 +363,11 @@
             "text.xml entity.other.attribute-name",
             "source.cs entity.other.attribute-name",
             "constant.character.format.placeholder",
-            "constant.other.placeholder"
+            "constant.other.placeholder",
+            "source.vue entity.other.attribute-name",
+            "entity.other.attribute-name.mjml",
+            "source.vue meta.directive punctuation.separator.key-value",
+            "meta.definition.attribute-entry punctuation.separator"
          ],
          "settings": {
             "foreground": "#e6ac00"
@@ -400,7 +411,6 @@
             "punctuation.terminator.function",
             "keyword.other.rust",
             "keyword.other.declaration-specifier.swift",
-            "keyword.control.function-end.lua",
             "keyword.control.class",
             "keyword.control.def",
             "source.ocaml keyword markup.underline",
@@ -415,7 +425,11 @@
             "keyword.other.skinparam.keyword",
             "keyword.other.nim",
             "markup.deleted.diff",
-            "source.tf support.class.variable"
+            "source.tf support.class.variable",
+            "meta.function.lua keyword.control.lua",
+            "markup.italic punctuation.definition",
+            "markup.bold punctuation.definition",
+            "markup.block entity.name.tag"
          ],
          "settings": {
             "foreground": "#ff7039"
@@ -565,7 +579,6 @@
             "support.constant.math",
             "entity.namespace.r",
             "meta.method-call.groovy storage.type.groovy",
-            "entity.name.function-table.lua",
             "source.scala entity.name.class.declaration",
             "constant.character.escape",
             "support.function.macro.julia",
@@ -576,7 +589,6 @@
             "string.quoted.other.literal.upper.crystal punctuation.definition.string",
             "meta.embedded.line.crystal punctuation.section.embedded",
             "meta.embedded.line.crystal punctuation.section.embedded source.crystal",
-            "source.scala entity.name.class",
             "punctuation.section.embedded",
             "punctuation.section.tag",
             "punctuation.section.embedded source.swift",
@@ -588,12 +600,13 @@
             "keyword.format.specifier.fsharp",
             "support.module.elm",
             "meta.embedded.block.php punctuation.definition.variable.php",
-            "support.variable.lua",
             "source.vala storage.type",
             "support.variable.class.group",
             "entity.name.type.class",
             "source.tf meta.keyword.list",
-            "source.tf meta.keyword.map"
+            "source.tf meta.keyword.map",
+            "entity.name.class.lua",
+            "markup.substitution"
          ],
          "settings": {
             "foreground": "#00a0ff"
@@ -641,7 +654,6 @@
             "comment.block.javadoc.java keyword",
             "comment.block.javadoc.java variable.parameter.java",
             "keyword.operator.documentation.powershell",
-            "variable.other.table.property.lua",
             "storage.type.scala",
             "variable.parameter.function.language.special",
             "comment.block.documentation.scala keyword",
@@ -654,7 +666,6 @@
             "constant.other.table-name",
             "constant.other.placeholder",
             "variable.other.field",
-            "keyword.function.go",
             "entity.alias.import.go",
             "source.swift keyword.other.declaration-specifier",
             "support.variable.swift",
@@ -672,9 +683,6 @@
             "function.anonymous keyword",
             "entity.name.record.field.accessor.elm",
             "support.type.primitive",
-            "keyword.control.import",
-            "keyword.control.export",
-            "keyword.control.from",
             "support.type.builtin",
             "keyword.type.cs",
             "storage.type.built-in",
@@ -703,7 +711,15 @@
             "support.class.builtin",
             "comment.block.documentation storage.type.class",
             "source.tf meta.keyword.string",
-            "source.tf meta.keyword.number"
+            "source.tf meta.keyword.number",
+            "source.scala entity.name.class",
+            "meta.import keyword.control",
+            "keyword.control.export",
+            "source.vue meta.directive punctuation.separator.key-value",
+            "keyword.local.lua",
+            "markup.list",
+            "markup.mark.constrained markup.mark",
+            "markup.block.open"
          ],
          "settings": {
             "fontStyle": "italic"
@@ -744,7 +760,6 @@
             "constant.other.symbol.ruby punctuation.definition.constant.ruby",
             "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
             "meta.function.parameters variable.other",
-            "source.scala keyword.declaration",
             "entity.name.type.annotation.kotlin",
             "storage.type.objc",
             "parameter.variable.function",
@@ -761,7 +776,12 @@
             "meta.function.parameters variable punctuation.definition.variable.php",
             "source.wsd keyword.other.activity",
             "keyword.control.class.ruby",
-            "keyword.control.def.ruby"
+            "keyword.control.def.ruby",
+            "keyword.function.go",
+            "keyword.other.fn.rust",
+            "markup.other.anchor",
+            "markup.list.bullet",
+            "markup.list punctuation.definition"
          ],
          "settings": {
             "fontStyle": "bold"
@@ -782,9 +802,11 @@
             "entity.name.lifetime.rust",
             "source.rust meta.attribute.rust",
             "meta.attribute.id entity.other.attribute-name",
-            "keyword.other.fn.rust",
             "source.ocaml punctuation.definition.tag emphasis",
-            "source.tf entity.name"
+            "source.tf entity.name",
+            "markup.quote punctuation.definition",
+            "markup.fenced_code punctuation.definition",
+            "fenced_code.block.language"
          ],
          "settings": {
             "fontStyle": "bold italic"
@@ -805,7 +827,6 @@
             "storage.modifier.package",
             "meta.class.identifier storage.modifier",
             "keyword.operator.other.powershell",
-            "source.lua storage.type.function",
             "source.css variable.parameter",
             "string.interpolated variable.parameter",
             "source.apacheconf keyword",
@@ -819,7 +840,6 @@
             "keyword.other.rust",
             "keyword.other.declaration-specifier.swift",
             "entity.name.function.swift",
-            "keyword.control.function-end.lua",
             "keyword.control.class",
             "keyword.control.def",
             "punctuation.definition.variable",
@@ -854,7 +874,10 @@
             "source.toml keyword",
             "keyword.other.nim",
             "source.nim keyword.other.common.function",
-            "source.nim keyword.other"
+            "source.nim keyword.other",
+            "source.scala keyword.declaration",
+            "source.scala entity.name.class.declaration",
+            "keyword.control.lua"
          ],
          "settings": {
             "fontStyle": ""
